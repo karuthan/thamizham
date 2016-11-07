@@ -1,33 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+	<meta name="description" content="Free Tamil e books for download. Large collection of Tamil Books and Magazines in PDF format.  World level tamil books pdf list. Tamil Education in Primary level. Online Lessons in Tamil." >
+    <meta name="Keywords" content="Free Tamil books, Tamil eBooks, Tamil eBooks collection, Free Tamil PDF eBooks, Tamil magazines, Tamil small magazines, Tamil grammar, Tamil Lessons, Primary Level, Tamil teaching, online tamil teaching.">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
     <title>தமிழம் வலை</title>
-
     <!-- Bootstrap core CSS -->
-    <link href="../../app/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
+    <link href="../../app/bootstrap/css/bootstrap.min.css" rel="stylesheet">  
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+
     <!-- Custom styles for this template -->
-    <link href="../../app/site.css" rel="stylesheet">
- 
+    <link href="../../app/site.css" rel="stylesheet"> 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
 
-    <nav class="navbar navbar-fixed-top navbar-custom">
+    <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -39,13 +36,28 @@
           <a class="navbar-brand" href="#">தமிழம் வலை</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-         
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">முகப்பு</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">பண்பலை</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>         
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+       <div class="jumbotron">
       <div class="container">
         <h3>அன்புடையீர், வணக்கம்.</h1>
         <p>தமிழம்.வலை உலகில் வாழும் அனைத்துத் தமிழர்களுக்கும் / தமிழ் மழலையர்களுக்கும் தமிழ் கற்பிக்க விரும்புகிறது.</p>
@@ -54,7 +66,7 @@
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
+      
       <div class="row">
         <div class="col-md-4">
           <h2>கற்க , கற்பிக்க</h2>
@@ -65,17 +77,52 @@
           <h2>தமிழம்.பண்பலை</h2>
           <p>தமிழம்.பண்பலை  இணைய வானொலி  கேட்கக் கேட்க உங்களுக்குள் தமிழியம் மலரும். தமிழனாகத் தலை நிமிர்வீர்கள், தமிழ்ப் பண்பாடு காட்சிதரும், உள்வாங்கி வழிநடக்க வாழ்வு செப்பமாகும்.
 		  </p>
+		  <audio id="fmaudio" controls="">
+		     <source src="http://fm.streamcentral.in:8000/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>
           <p><a class="btn btn-default" href="http://www.thamizham.net/thamizhamfm.htm" role="button">பண்பலையை கேட்க &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>தமிழ் சிற்றிதழ் காப்பகம்</h2>
-          <p>பழைய, புதிய  சிற்றிதழ்கள் , தமிழ்ச் சிற்றிதழாளர்களின் பட்டியல் </p>
+          <h2>தமிழ் காப்பகம்</h2>
+          <p>பழைய, புதிய  சிற்றிதழ்கள் , தமிழ்ச் சிற்றிதழாளர்களின் பட்டியல் , </p>
           <p><a class="btn btn-default" href="http://www.thamizham.net/noolaavanam.htm" role="button">மேலும் அறிய &raquo;</a></p>
         </div>
       </div>
 
       <hr>
+<div class="letters">
+	<div class="pronounce">
+		<span class="glyphicon glyphicon-play" aria-hidden="true"/>
+		<button type="button" class="btn btn-lg btn-info">
+			<span>ட</span>
+			<audio controls="">
+				<source src="../app/writing/child-ta.mp3" type="audio/mp3">
+				</audio>
+			</audio>
+		</button>
+		<button type="button" class="btn btn-lg btn-info">	   
+			<audio controls="">
+				<source src="../app/writing/child-it.mp3" type="audio/mp3">
+				</audio>
+			</audio>
+			<span> ட்</span>
+		</button>
+		<button type="button" class="btn btn-lg btn-info">
+			<audio controls="">
+				<source src="../app/writing/child-it.mp3" type="audio/mp3">
+				</audio>
+			</audio>
+			<span> ட்ட</span>
+		</button>
+	</div>
 
+	<div  class="pronounce-list">
+		<select class="pronounce-options row" multiple="multiple" style="width:75%">
+			<option value="it">ட்</option>
+			<option value="ta">ட</option>
+		</select>
+	</div>
+</div>
+      <hr>
       <footer>
 	  <h3>தொடர்புக்கு / Contact </h3>
 	  <div class="row contact">
@@ -103,6 +150,25 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../bootstrap/js/bootstrap.min.js"></script>  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+	<script>document.getElementById("fmaudio").volume = .3;</script>
+	<script type="text/javascript">
+	
+	function formatState (state) {  
+     var $state = $(  '<h4>'+state.text+'</h4>'  );
+    return $state;
+   };
+
+$(document).ready(function() {
+  $(".pronounce-options").select2( {
+   language: "ta",
+   templateResult: formatState,
+   placeholder: "Add to play",
+   allowClear: true,
+   maximumSelectionLength: 2, 
+   theme: "classic"});
+});
+</script>
+    <script src="../../app/bootstrap/js/bootstrap.min.js"></script>  
   </body>
 </html>

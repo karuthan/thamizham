@@ -1,8 +1,6 @@
 body {
   padding-top: 2rem;
 }
-
-
    
 .navbar-custom {
     background-color:#9b59b6;
@@ -19,6 +17,31 @@ body {
 }
 .navbar-custom .navbar-brand {
     color:#eeeeee;
+}
+
+.letters audio { 
+   display:none;
+}
+
+.letters .audio-play {
+	font-size: 1.5em;
+}
+
+.pronounce-list{
+  margin:50px;
+}
+.pronounce-options{
+  margin:50px;
+}
+
+.select2-selection__choice {
+ font-size: 2.5em;
+ background-color:#31b0d5;
+}
+
+.pronounce .btn{
+  font-size: 2.5em;
+  margin-bottom: 2px;
 }
 
 .social-media {
